@@ -6,38 +6,10 @@ public class Triangle{
         symbol = c;
         }
     public void displaySolidLL(){
-        String S7 = "\n";
-        String SolidLL = "";
-        for (int x = 0; x <= size; x++) {
-            for (int y = 0; y < x; y++) {
-                SolidLL = SolidLL + symbol;
-                }
-            SolidLL +=(S7);
-            }
-        System.out.println(SolidLL);
         }
     public void displaySolidLR(){
-        spaces = (size - 1);
-        String S7 = "\n";
-        String SolidLR = "";
-        for (int x = 0; x <= size; x++) {
-            for (int y = 0; y < size; y++) {
-                SolidLR = SolidLR + " " + symbol;
-                }
-            SolidLR +=(S7);
-            }
-        System.out.println(SolidLR);
     }
     public void displaySolidUL(){
-        String S7 = "\n";
-        String SolidUL = "";
-        for (int x = 0; x <= size; x++) {
-            for (int y = size; y > x; y--) {
-                SolidUL = SolidUL + symbol;
-                }
-            SolidUL +=(S7);
-            }
-        System.out.println(SolidUL);
     }
     public void displaySolidUR(){
 
